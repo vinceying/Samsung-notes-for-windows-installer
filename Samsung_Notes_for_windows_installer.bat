@@ -41,10 +41,10 @@ goto start
 :lacal
 cls
 echo Install Samsung Notes and Samsung Account(lacal)
-echo Please download SamsungNotes.Msixbundle and SamsungNotes.Msixbundle into aapx folder（Dn not rename!）
+echo Please download SamsungNotes.Msixbundle and SamsungAccounts.Msixbundle into aapx folder（Dn not rename!）
 echo Installing(Turn on sideloading before install https://learn.microsoft.com/zh-cn/windows/application-management/sideload-apps-in-windows)
 start %cd%\aapx\SamsungNotes.Msixbundle
-start %cd%\aapx\SamsungNotes.Msixbundle
+start %cd%\aapx\SamsungAccount.Msixbundle
 echo.
 echo Press any key to continue
 pause>nul
